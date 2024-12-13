@@ -1,0 +1,68 @@
+
+body{
+    background-color: #212121;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 98vh;
+    width: 98vw;
+    /* background-color: ; */
+    display: flex;
+    gap: 10px;
+}
+
+.right{
+    height: 100%;
+    width: 40vw;
+    background:url(https://media.istockphoto.com/id/506665554/photo/sunset-over-sea.jpg?s=612x612&w=0&k=20&c=8N1ViH4Q2jFUkvh0kg13_K2RbvvsypLTIb6by5PsCD0=);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+.top{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1017860526/photo/beautiful-cloudscape-over-the-sea-sunrise-on-the-beach.jpg?s=612x612&w=0&k=20&c=AHGrnoRz_yoqn_0IQB18ibo9Me1iU-qG09HlquDneww=);
+    background-position: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.middle{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.first{
+    height: 100%;
+    width: 50%;
+    background: url(https://images.unsplash.com/photo-1675409147527-a7f18ed2e62a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNlYSUyMHN1bnNldHxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    border-radius: 5px;
+}
+.second{
+    height: 100%;
+    width: 50%;
+    background: url(https://media.istockphoto.com/id/2167379853/photo/maldives-sunset-at-the-beach-with-wood-jetty-and-palm-trees-during-golden-hour-evening.jpg?s=612x612&w=0&k=20&c=vIxvA0YhwxcNsgsjXEd7LCaG6WfivsFIxT2-091RofM=);
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.bottom{
+    height: 60%;
+    width: 100%;
+    background: url(https://www.shutterstock.com/image-photo/beautiful-sunset-tropical-beach-palm-600nw-1716193708.jpg);
+    border-radius: 20px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;   
+}
